@@ -1,0 +1,42 @@
+export const bannerSeed = [
+  {
+    title: "Hindu Matrimony Matches",
+    type: "Homepage",
+    device: "Both",
+    status: "Active",
+    image: "http://localhost:5000/upload/hindu-banner.jpg",
+    link: "/matches?religion=Hindu",
+  },
+  {
+    title: "Muslim Matrimony Matches",
+    type: "Homepage",
+    device: "Both",
+    status: "Active",
+    image: "http://localhost:5000/upload/muslim-banner.jpg",
+    link: "/matches?religion=Muslim",
+  },
+  {
+    title: "Sikh Matrimony Matches",
+    type: "Homepage",
+    device: "Both",
+    status: "Active",
+    image: "http://localhost:5000/upload/sikh-banner.jpg",
+    link: "/matches?religion=Sikh",
+  },
+  {
+    title: "Christian Matrimony Matches",
+    type: "Homepage",
+    device: "Both",
+    status: "Active",
+    image: "http://localhost:5000/upload/christian-banner.jpg",
+    link: "/matches?religion=Christian",
+  },
+  {
+    title: "Jain Matrimony Matches",
+    type: "Homepage",
+    device: "Both",
+    status: "Active",
+    image: "http://localhost:5000/upload/jain-banner.jpg",
+    link: "/matches?religion=Jain",
+  },
+];

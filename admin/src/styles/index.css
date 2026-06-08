@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html {
+  scroll-behavior: smooth;
+  background: #0B1220;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  overflow-x: hidden;
+  background: #0B1220;
+
+  background-image:
+    radial-gradient(
+      circle at top,
+      #132238 0%,
+      #0B1220 45%,
+      #050816 100%
+    );
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+}
+
+/* =========================
+   Text Selection
+========================= */
+
+::selection {
+  background: rgba(246, 181, 69, 0.3);
+  color: white;
+}
+
+/* =========================
+   Premium Scrollbar
+========================= */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(
+    to bottom,
+    rgba(246, 181, 69, 0.45),
+    rgba(217, 154, 51, 0.7)
+  );
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(246, 181, 69, 0.8),
+    rgba(217, 154, 51, 1)
+  );
+}
+
+/* =========================
+   Premium Cards
+========================= */
+
+.glass-card {
+  background: rgba(6, 53, 39, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(143, 107, 52, 0.4);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+/* =========================
+   Premium Buttons
+========================= */
+
+.gold-btn {
+  background: linear-gradient(
+    135deg,
+    #d99a33,
+    #f6b545
+  );
+
+  color: #03261d;
+
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+.gold-btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 0 25px rgba(246, 181, 69, 0.35);
+}
+
+/* =========================
+   Premium Inputs
+========================= */
+
+input,
+select,
+textarea {
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow:
+    0 0 0 3px rgba(246, 181, 69, 0.15);
+}
+
+/* =========================
+   Table Hover
+========================= */
+
+tbody tr {
+  transition: all 0.25s ease;
+}
+
+tbody tr:hover {
+  background: rgba(246, 181, 69, 0.05);
+}
+
+/* =========================
+   Premium Animations
+========================= */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
