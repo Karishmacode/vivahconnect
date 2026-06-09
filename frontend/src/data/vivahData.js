@@ -5,7 +5,7 @@ import member4 from "../assets/images/member4.png";
 
 import Success1 from "../assets/images/Success1.png";
 import Success2 from "../assets/images/Success2.png";
-import Success3 from "../assets/images/Success4.png";
+import success4 from "../assets/images/success4.png";
 
 export const members = [
   {
@@ -102,7 +102,7 @@ export const stories = [
     names: "Karan & Neha",
     date: "Married on 16 Mar 2024",
     city: "Mumbai",
-    image: Success3,
+    image: success4,
   },
 ];
 
@@ -120,7 +120,6 @@ export const plans = [
       "WhatsApp access for 7 days after match accepted",
     ],
   },
-
   {
     id: 2,
     name: "Silver",
@@ -134,7 +133,6 @@ export const plans = [
       "Basic support",
     ],
   },
-
   {
     id: 3,
     name: "Gold",
@@ -148,7 +146,6 @@ export const plans = [
       "Priority listing",
     ],
   },
-
   {
     id: 4,
     name: "Platinum",
